@@ -1,10 +1,10 @@
 import React from 'react';
-import TheDate from './state/TheDate.js';
+import {Counter} from './state/Counter.js';
 
 class App extends React.Component {
   render() {
     return (
-      <TheDate></TheDate>
+      <Counter />
     );
   }
 }
